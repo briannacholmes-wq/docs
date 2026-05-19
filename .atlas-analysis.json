@@ -1,0 +1,100 @@
+{
+  "projectType": "saas",
+  "projectName": "Our World",
+  "projectDescription": "A family companion app that helps parents and children manage daily tasks, track milestones, practice mindfulness, and capture memories together.",
+  "theme": "almond",
+  "primaryColor": "#4A2C6B",
+  "lightColor": "#F0EBF8",
+  "darkColor": "#1A1A2E",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guide",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "getting-started/setup",
+              "getting-started/profiles"
+            ]
+          },
+          {
+            "group": "Parent Features",
+            "pages": [
+              "features/home-dashboard",
+              "features/tasks-approvals",
+              "features/calendar",
+              "features/memories"
+            ]
+          },
+          {
+            "group": "Child Features",
+            "pages": [
+              "features/quests",
+              "features/companion",
+              "features/calm-child"
+            ]
+          },
+          {
+            "group": "Wellness",
+            "pages": [
+              "features/calm-parent",
+              "features/ai-guide"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "customization/themes",
+              "customization/settings",
+              "customization/approval-windows"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Help",
+        "groups": [
+          {
+            "group": "Support",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting",
+              "help/offline-mode"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "5-step guided onboarding for parent and child personalization",
+    "Parent dashboard with mood tracking and AI guide (Lumis, Sage, Nova, River)",
+    "Child quest system with star rewards and parent approval workflow",
+    "Virtual companion/pet that grows as tasks are completed",
+    "Mindfulness and calm activities for both parent and child",
+    "Shared memory keeper to capture and categorize family moments",
+    "Calendar view with weekly events and lunch planner",
+    "Customizable themes with preset and custom color pickers",
+    "Configurable approval windows and notification preferences",
+    "Offline-capable Progressive Web App (PWA) installable on any device"
+  ],
+  "publicApiSurface": [
+    "Onboarding flow (5 steps: names, app name, AI guide, companion, theme)",
+    "Parent profile: Home, Calendar, Calm, Settings, Memories tabs",
+    "Child profile: Quests, Calm, Memories tabs",
+    "Task approval workflow: parent approves child-completed tasks",
+    "Star reward system: stars earned per approved task",
+    "Screen time tracking: minutes unlocked via task completion",
+    "Pet/companion progression: grows with task completions (5 stages)",
+    "AI guide chat interface",
+    "Mood logging (parent)",
+    "Memory keeper: add, categorize, filter moments",
+    "Mindfulness sessions: breathing exercises, body scans, guided meditations",
+    "Theme customization: 6 presets + custom primary/accent color pickers",
+    "Approval window settings: Morning, Midday, Evening, Anytime, Custom",
+    "Notification preferences: Push, In-app, Email digest, Silent",
+    "localStorage-based state persistence"
+  ]
+}

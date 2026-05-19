@@ -1,0 +1,78 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Our World",
+  "theme": "almond",
+  "colors": {
+    "primary": "#4A2C6B",
+    "light": "#F0EBF8",
+    "dark": "#1A1A2E"
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/briannacholmes-wq/ourworldapp"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guide",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "getting-started/setup",
+              "getting-started/profiles"
+            ]
+          },
+          {
+            "group": "Parent Features",
+            "pages": [
+              "features/home-dashboard",
+              "features/tasks-approvals",
+              "features/calendar",
+              "features/memories"
+            ]
+          },
+          {
+            "group": "Child Features",
+            "pages": [
+              "features/quests",
+              "features/companion",
+              "features/calm-child"
+            ]
+          },
+          {
+            "group": "Wellness",
+            "pages": [
+              "features/calm-parent",
+              "features/ai-guide"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "customization/themes",
+              "customization/settings",
+              "customization/approval-windows"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Help",
+        "groups": [
+          {
+            "group": "Support",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting",
+              "help/offline-mode"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
